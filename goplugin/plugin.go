@@ -7,7 +7,7 @@ import (
 )
 
 var(
-	PromHandler func() http.Handle
+	PromHandler func() http.Handler
 )
 
 func InitPlugin(soPath string){
@@ -28,7 +28,7 @@ func InitPlugin(soPath string){
 		return
 	}
 
-	PromHandler,ok = promHandler.(func() http.Handle)
+	PromHandler,ok = promHandler.(func() http.Handler)
 	if !ok{
 		log.Println("!ok:PromHandler")
 		return
