@@ -1,4 +1,4 @@
-module gomonitor
+module github.com/friendlyhank/gomonitor
 
 go 1.18
 
