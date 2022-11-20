@@ -5,6 +5,7 @@ import (
 	"net/http"
 )
 
+// PromHandler - 设置handler信息
 func PromHandler()http.Handler{
 	return promhttp.Handler()
 }
