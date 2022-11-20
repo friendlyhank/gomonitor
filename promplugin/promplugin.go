@@ -1,4 +1,4 @@
-package goplugin
+package promplugin
 
 import (
 	"log"
