@@ -1,6 +1,10 @@
-module github.com/friendlyhank/gomonitor
+module git.2tianxin.com/platform/gomonitor
 
+<<<<<<< HEAD
 go 1.15
+=======
+go 1.15.15
+>>>>>>> d7586cd5df22f99d7627212cbf881d9950c59d7a
 
 require (
 	github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e // indirect
